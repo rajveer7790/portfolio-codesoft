@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposive.css">
+    <script src="https://kit.fontawesome.com/d4ac7690ce.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>
+                <a href="index.html"><p>R</p></a>AJVEER
+            </h1>
+        </div>
+        <NAV>
+            <ul>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li>
+                    <a href="#Skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#Project">Project</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+               
+            </ul>
+        </NAV>
+    </header>
+    <main>
+        <div class="intro">
+            <h1>Hi, <br>I am <span class="name">Rajveer</span></h1>
+            <p>Electrical and Electronics <br>Student</p>
+        </div>
+        <!-------about--------->
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="col1">
+                        <img src="img/rajveer.jpg" alt="My photo" srcset="" class="photo">
+                    </div>
+                    <div class="col2">
+                        <h1 class="sub-title">About</h1>
+                        <p>I am Rajveer, a dedicated and enthusiastic Electrical and Electronics science student with a passion for technology and problem-solving. With a strong foundation in programming and computer science concepts, I am eager to embark on a journey of continuous learning and innovation.</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                            <p class="tab-links" onclick="opentab('lang')">Languages</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>Higher Secondary  2017-2018</span><br>Aamrapali Convent Senior Secondary School, Jaipur</li>
+                                <li><span>Senior Secondary  2019-2020</span><br>Aamrapali Convent Senior Secondary School, Jaipur</li>
+                                <li><span>B E  2022-Present</span><br>NIE, Mysore</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                 <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Java Script</li>
+                                <li>Data Structures and Algorithms in C/C++</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                                <li>CRICKET</li>
+                                <li>READING</li>
+                                <li>TRAVELLING</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="lang">
+                            <ul>
+                                <li>ENGLISH</li>
+                                <li>MARWARI</li>
+                                <li>HINDI</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="Skills">
+            <div class="container">
+                <h1 class="sub-title">Skills</h1>
+                <div class="skill-list">
+                    <div>
+                        <img src="img/jhep-coursera-course4.png" alt="" srcset="">
+                        <h2>HTML, CSS and Java Script<h2>
+                    </div>
+                    <div>
+                        <img src="img/dsa_logo.jpg" alt="" srcset="">
+                        <h2>Data Structures in C and C++<h2>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_OAb2-bIwL3xGpvzgKWnpsfxNHDXIwUHkxA&usqp=CAU" alt="" srcset="">
+                        <h2>Microsoft Excel<h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Project">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="project-list">
+                    <div class="work">
+                        <img src="img/Screenshot 2023-10-05 200446.png" >
+                        <div class="layer">
+                            <h3>Housetimate</h3>
+                            <p>Python based Machine Learning project on Estimating the price of houses. <br>TECH used: Python,Flask,JS,HTML,CSS</p>
+                            <a href="https://github.com/AMOGHPROMODPHATARPEKAR/realestate_project" rel="main"><i class="fa-solid fa-link"></i></a>
+                            <a href="img/Screenshot 2023-10-05 200446.png"><i class="fa-solid fa-image"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="img/ProjectManagement.jpg" >
+                        <div class="layer">
+                            <h3>New Project</h3>
+                            <p>new project yet to be created</p>
+                            <a href="error.html"><i class="fa-solid fa-link"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> Email : rvcelish@gmail.com </p>
+                    <p> <i class="fa-solid fa-phone"></i> Phone No : 82099-18396</p>
+                    <a href="img/rajveer cv1.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="col-right">
+                    <h3>Social media</h3>
+                    <div class="social">           
+                    <a href="https://www.instagram.com/rajveer_choudary243/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rajveer-choudhary-b10827223/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright reserved &copy; to Rajveer</p>
+    </footer>
+
+</body>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</html>
